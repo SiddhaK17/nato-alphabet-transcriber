@@ -1,6 +1,6 @@
 # 🔡 NATO Alphabet Transcriber  
 
-The **NATO Alphabet Transcriber** is a Python-powered, command-line utility that seamlessly converts user-provided words into their **NATO phonetic alphabet equivalents**. By leveraging **data-driven programming** with `pandas` and Python’s **dictionary comprehension**, this project demonstrates how structured datasets can be transformed into **real-time, interactive applications**.  
+The **NATO Alphabet Transcriber** is a Python powered, command line utility that seamlessly converts user provided words into their **NATO phonetic alphabet equivalents**. By leveraging **data driven programming** with `pandas` and Python’s **dictionary comprehension**, this project demonstrates how structured datasets can be transformed into **real time, interactive applications**.  
 
 More than just a simple translator, this program represents a **fusion of practical utility and programming concepts**, making it an excellent showcase of clean code practices, input validation, and user-centric design.  
 
