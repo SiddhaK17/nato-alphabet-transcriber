@@ -2,19 +2,19 @@
 
 The **NATO Alphabet Transcriber** is a Python powered, command line utility that seamlessly converts user provided words into their **NATO phonetic alphabet equivalents**. By leveraging **data driven programming** with `pandas` and Python’s **dictionary comprehension**, this project demonstrates how structured datasets can be transformed into **real time, interactive applications**.  
 
-More than just a simple translator, this program represents a **fusion of practical utility and programming concepts**, making it an excellent showcase of clean code practices, input validation, and user-centric design.  
+More than just a simple translator, this program represents a **fusion of practical utility and programming concepts**, making it an excellent showcase of clean code practices, input validation, and user centric design.  
 
 ---
 
 ## 📖 Overview  
 
-In fields like **aviation, telecommunications, and defense**, the NATO phonetic alphabet is an indispensable standard for eliminating ambiguity in verbal communication. This project brings that precision into a **Python command-line interface**, allowing users to input any word and instantly receive its **phonetic transcription**.  
+In fields like **aviation, telecommunications, and defense**, the NATO phonetic alphabet is an indispensable standard for eliminating ambiguity in verbal communication. This project brings that precision into a **Python command line interface**, allowing users to input any word and instantly receive its **phonetic transcription**.  
 
 - Each character of the word is validated and mapped to its NATO counterpart.  
 - Invalid inputs such as numbers or special characters are gracefully rejected with clear guidance to the user.  
-- A recursive mechanism ensures that the workflow remains uninterrupted and user-friendly.  
+- A recursive mechanism ensures that the workflow remains uninterrupted and user friendly.  
 
-This project goes beyond textbook exercises — it exemplifies how **structured datasets, robust error handling, and algorithmic thinking** can be combined to deliver a practical solution that is both **educational** and **professionally relevant**.  
+This project goes beyond textbook exercises, as it exemplifies how **structured datasets, robust error handling, and algorithmic thinking** can be combined to deliver a practical solution that is both **educational** and **professionally relevant**.  
 
 ---
 
