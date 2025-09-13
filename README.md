@@ -37,7 +37,7 @@ The project demonstrates a **synergistic blend of Pythonic techniques and data h
 Though designed as a **utility tool**, the application incorporates mechanics that parallel interactive gameplay:  
 
 1. **📝 Input Stage** – Users enter any word via the CLI. The program automatically converts the input to uppercase to maintain uniformity.  
-2. **🔍 Validation Layer** – Each character is checked against the phonetic dictionary. Non-alphabetic characters (e.g., digits, symbols) trigger controlled exceptions.  
+2. **🔍 Validation Layer** – Each character is checked against the phonetic dictionary. Non alphabetic characters (e.g., digits, symbols) trigger controlled exceptions.  
 3. **⚠️ Error Handling & Recovery** – Instead of failing silently or terminating, the program gracefully informs the user of the invalid input and **recursively re-prompts** for valid data.  
 4. **🎯 Phonetic Conversion Engine** – Valid words are decomposed into individual characters, each mapped to its corresponding NATO phonetic code word.  
 5. **📤 Output Rendering** – A clean, structured list of phonetic code words is displayed instantly, ensuring clarity and readability.  
