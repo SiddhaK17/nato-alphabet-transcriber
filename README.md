@@ -28,7 +28,7 @@ The project demonstrates a **synergistic blend of Pythonic techniques and data h
 - **Exception Handling (`try/except`)** – Ensures resilience by catching non alphabetic inputs, thereby maintaining program integrity and user experience.  
 - **Recursion** – Deployed for input retries, guaranteeing that invalid input scenarios do not terminate the application unexpectedly.  
 - **Data Abstraction & Separation of Concerns** – Keeps the logic (`main.py`) and dataset (`.csv`) modular and maintainable, allowing easy scalability or dataset replacement in future iterations.  
-- **CLI Interactivity** – Engages users in a streamlined, text based environment while providing instant, real-time feedback.  
+- **CLI Interactivity** – Engages users in a streamlined, text based environment while providing instant, real time feedback.  
 
 ---
 
