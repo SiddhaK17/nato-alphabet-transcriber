@@ -38,7 +38,7 @@ Though designed as a **utility tool**, the application incorporates mechanics th
 
 1. **📝 Input Stage** – Users enter any word via the CLI. The program automatically converts the input to uppercase to maintain uniformity.  
 2. **🔍 Validation Layer** – Each character is checked against the phonetic dictionary. Non alphabetic characters (e.g., digits, symbols) trigger controlled exceptions.  
-3. **⚠️ Error Handling & Recovery** – Instead of failing silently or terminating, the program gracefully informs the user of the invalid input and **recursively re prompts** for valid data.  
+3. **⚠️ Error Handling & Recovery** – Instead of failing silently or terminating, the program gracefully informs the user of the invalid input and **recursively re-prompts** for valid data.  
 4. **🎯 Phonetic Conversion Engine** – Valid words are decomposed into individual characters, each mapped to its corresponding NATO phonetic code word.  
 5. **📤 Output Rendering** – A clean, structured list of phonetic code words is displayed instantly, ensuring clarity and readability.  
 6. **🔄 Replay Cycle** – Users can re-run the process for as many words as desired without restarting the application.  
