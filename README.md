@@ -22,10 +22,10 @@ This project goes beyond textbook exercises, as it exemplifies how **structured 
 
 The project demonstrates a **synergistic blend of Pythonic techniques and data handling strategies**:  
 
-- **Python 3.10+** – The backbone of the application, offering clarity, readability, and powerful built-in constructs.  
-- **Pandas** – Utilized for **parsing the CSV dataset** (`nato_phonetic_alphabet.csv`) and converting it into a highly efficient, dictionary-based lookup structure.  
+- **Python 3.10+** – The backbone of the application, offering clarity, readability, and powerful built in constructs.  
+- **Pandas** – Utilized for **parsing the CSV dataset** (`nato_phonetic_alphabet.csv`) and converting it into a highly efficient, dictionary based lookup structure.  
 - **Dictionary Comprehension** – A Pythonic approach to transform the phonetic dataset into a usable `dict` in a single, elegant line of code.  
-- **Exception Handling (`try/except`)** – Ensures resilience by catching non-alphabetic inputs, thereby maintaining program integrity and user experience.  
+- **Exception Handling (`try/except`)** – Ensures resilience by catching non alphabetic inputs, thereby maintaining program integrity and user experience.  
 - **Recursion** – Deployed for input retries, guaranteeing that invalid input scenarios do not terminate the application unexpectedly.  
 - **Data Abstraction & Separation of Concerns** – Keeps the logic (`main.py`) and dataset (`.csv`) modular and maintainable, allowing easy scalability or dataset replacement in future iterations.  
 - **CLI Interactivity** – Engages users in a streamlined, text-based environment while providing instant, real-time feedback.  
