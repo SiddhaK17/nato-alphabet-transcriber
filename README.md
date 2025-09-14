@@ -43,7 +43,7 @@ Though designed as a **utility tool**, the application incorporates mechanics th
 5. **📤 Output Rendering** – A clean, structured list of phonetic code words is displayed instantly, ensuring clarity and readability.  
 6. **🔄 Replay Cycle** – Users can re-run the process for as many words as desired without restarting the application.  
 
-> ⚡ This flow ensures the program feels **interactive, engaging, and error-tolerant**, much like a **gamified learning tool**, while retaining its professional utility as a phonetic transcription engine.  
+> ⚡ This flow ensures the program feels **interactive, engaging, and error tolerant**, much like a **gamified learning tool**, while retaining its professional utility as a phonetic transcription engine.  
 
 ---
 
@@ -107,7 +107,7 @@ Enter a word: HELLO
 
 ---
 
-### **Case 2: Input with Non-Alphabetic Characters**  
+### **Case 2: Input with Non Alphabetic Characters**  
 ```
 Enter a word: HELLO123
 ```
@@ -120,7 +120,7 @@ Sorry, only letters in the alphabets please.
 Enter a word:
 ```
 
-> ⚠️ The program detects invalid input (`123`) and gracefully handles the error by displaying a warning and re-prompting the user for a valid entry.  
+> ⚠️ The program detects invalid input (`123`) and gracefully handles the error by displaying a warning and re prompting the user for a valid entry.  
 
 ---
 
