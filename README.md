@@ -120,7 +120,7 @@ Sorry, only letters in the alphabets please.
 Enter a word:
 ```
 
-> ⚠️ The program detects invalid input (`123`) and gracefully handles the error by displaying a warning and re prompting the user for a valid entry.  
+> ⚠️ The program detects invalid input (`123`) and gracefully handles the error by displaying a warning and re-prompting the user for a valid entry.  
 
 ---
 
@@ -146,7 +146,7 @@ Enter a word: Z
 ['Zulu']
 ```  
 
-> 🎯 The program correctly handles single-character inputs, maintaining accuracy and robustness.  
+> 🎯 The program correctly handles single character inputs, maintaining accuracy and robustness.  
 
 ---
 
@@ -165,7 +165,7 @@ Sorry, only letters in the alphabets please.
 ✔️ **This structured interaction flow ensures:**  
 - Clear and concise transcription for valid input.  
 - Robust error handling and immediate feedback for invalid input.  
-- Case-insensitive processing for user convenience.  
+- Case insensitive processing for user convenience.  
 - Stability even with edge cases like empty or single-character input.  
 
 ---
