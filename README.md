@@ -166,13 +166,13 @@ Sorry, only letters in the alphabets please.
 - Clear and concise transcription for valid input.  
 - Robust error handling and immediate feedback for invalid input.  
 - Case insensitive processing for user convenience.  
-- Stability even with edge cases like empty or single-character input.  
+- Stability even with edge cases like empty or single character input.  
 
 ---
 
 ## ✨ Key Highlights  
 
-The **NATO Alphabet Transcriber** is more than just a coding exercise — it is a **practical utility tool** that transforms ordinary words into their **standardized phonetic equivalents**. This project combines **data-driven logic, error-tolerant design, and real-world usability** into a clean and reliable Python program.  
+The **NATO Alphabet Transcriber** is more than just a coding exercise. It is a **practical utility tool** that transforms ordinary words into their **standardized phonetic equivalents**. This project combines **data driven logic, error tolerant design, and real-world usability** into a clean and reliable Python program.  
 
 ---
 
