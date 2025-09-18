@@ -172,7 +172,7 @@ Sorry, only letters in the alphabets please.
 
 ## ✨ Key Highlights  
 
-The **NATO Alphabet Transcriber** is more than just a coding exercise. It is a **practical utility tool** that transforms ordinary words into their **standardized phonetic equivalents**. This project combines **data driven logic, error tolerant design, and real-world usability** into a clean and reliable Python program.  
+The **NATO Alphabet Transcriber** is more than just a coding exercise. It is a **practical utility tool** that transforms ordinary words into their **standardized phonetic equivalents**. This project combines **data driven logic, error tolerant design, and real world usability** into a clean and reliable Python program.  
 
 ---
 
@@ -180,9 +180,9 @@ The **NATO Alphabet Transcriber** is more than just a coding exercise. It is a *
 - **Automated Word-to-Code Conversion:**  
   Converts any alphabetic input into a sequence of NATO phonetic words (e.g., `HELLO → Hotel Echo Lima Lima Oscar`).  
 - **Robust Error Handling:**  
-  Non-alphabetic inputs trigger graceful validation messages, preventing crashes and ensuring uninterrupted workflow.  
+  Non alphabetic inputs trigger graceful validation messages, preventing crashes and ensuring uninterrupted workflow.  
 - **Case Uniformity:**  
-  Mixed-case words are automatically standardized to uppercase, producing consistent and professional outputs.  
+  Mixed case words are automatically standardized to uppercase, producing consistent and professional outputs.  
 - **Recursive Input Recovery:**  
   Instead of terminating on invalid input, the program **re-prompts intelligently**, keeping the user engaged until valid data is provided.  
 
