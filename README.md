@@ -189,8 +189,8 @@ The **NATO Alphabet Transcriber** is more than just a coding exercise. It is a *
 ---
 
 ### ⚙️ Clean & Scalable Code Architecture  
-- **Data-Driven Dictionary Creation:**  
-  Utilizes `pandas` to efficiently parse the CSV dataset (`nato_phonetic_alphabet.csv`) into a **dynamic dictionary** for real-time lookups.  
+- **Data Driven Dictionary Creation:**  
+  Utilizes `pandas` to efficiently parse the CSV dataset (`nato_phonetic_alphabet.csv`) into a **dynamic dictionary** for real time lookups.  
 - **Separation of Concerns:**  
   Core logic is modularized within the `generate_phonetic()` function, keeping the codebase easy to read, maintain, and extend.  
 - **Scalability in Mind:**  
@@ -201,9 +201,9 @@ The **NATO Alphabet Transcriber** is more than just a coding exercise. It is a *
 ---
 
 ### 🚀 Learning Outcomes & Practical Takeaways  
-- **Mastery of `pandas`:** Gained hands-on experience reading CSV files and transforming tabular data into usable program structures.  
+- **Mastery of `pandas`:** Gained hands on experience reading CSV files and transforming tabular data into usable program structures.  
 - **Applied Dictionary Comprehension:** Learned to construct dictionaries dynamically using `iterrows()` for efficiency and readability.  
-- **Strengthened Exception Handling Skills:** Designed fault-tolerant logic to gracefully manage user errors.  
+- **Strengthened Exception Handling Skills:** Designed fault tolerant logic to gracefully manage user errors.  
 - **Recursive Function Design:** Leveraged recursion as a mechanism for recovery and re-engagement.  
 - **Bridging Theory to Real-World Utility:** Transformed a simple dataset into a tool with professional communication value (e.g., aviation, military, call centers).  
 
