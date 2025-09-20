@@ -205,29 +205,29 @@ The **NATO Alphabet Transcriber** is more than just a coding exercise. It is a *
 - **Applied Dictionary Comprehension:** Learned to construct dictionaries dynamically using `iterrows()` for efficiency and readability.  
 - **Strengthened Exception Handling Skills:** Designed fault tolerant logic to gracefully manage user errors.  
 - **Recursive Function Design:** Leveraged recursion as a mechanism for recovery and re-engagement.  
-- **Bridging Theory to Real-World Utility:** Transformed a simple dataset into a tool with professional communication value (e.g., aviation, military, call centers).  
+- **Bridging Theory to Real World Utility:** Transformed a simple dataset into a tool with professional communication value (e.g., aviation, military, call centers).  
 
 ---
 
 ### 🌟 Potential Enhancements  
 - Enable **batch processing** of multiple words or entire sentences.  
-- Add **GUI integration** for a more user-friendly, interactive interface.  
-- Extend into a **command-line utility** with arguments for automation.  
-- Introduce **multi-language phonetic systems** (e.g., ICAO, ITU variations).  
+- Add **GUI integration** for a more user friendly, interactive interface.  
+- Extend into a **command line utility** with arguments for automation.  
+- Introduce **multi language phonetic systems** (e.g., ICAO, ITU variations).  
 - Export transcriptions into external files for training or documentation purposes.  
 
 ---
 
 ## 📜 Credits  
 
-This project reflects my pursuit of **combining Python programming with practical, real-world problem-solving**. The foundational concepts — including CSV parsing, dictionary comprehension, and recursive input handling — were inspired by structured learning materials during my journey of mastering Python from **Dr. Angela Yu’s “100 Days of Code: The Complete Python Pro Bootcamp”**.  
+This project reflects my pursuit of **combining Python programming with practical, real world problem solving**. The foundational concepts including CSV parsing, dictionary comprehension, and recursive input handling were inspired by structured learning materials during my journey of mastering Python from **Dr. Angela Yu’s “100 Days of Code: The Complete Python Pro Bootcamp”**.  
 
 Beyond the initial inspiration, I independently:  
-- Implemented **robust error handling** for non-alphabetic characters.  
+- Implemented **robust error handling** for non alphabetic characters.  
 - Designed a **recursive input validation mechanism** for smooth user interaction.  
-- Structured the project for **clarity, scalability, and long-term maintainability**.  
-- Authored detailed **documentation and professional commit history** to reflect industry-grade standards.  
+- Structured the project for **clarity, scalability, and long term maintainability**.  
+- Authored detailed **documentation and professional commit history** to reflect industry grade standards.  
 
-Special thanks to the **Python open-source ecosystem**, particularly `pandas`, which enabled efficient data manipulation and reinforced best practices in modern Python development.  
+Special thanks to the **Python open source ecosystem**, particularly `pandas`, which enabled efficient data manipulation and reinforced best practices in modern Python development.  
 
-The **NATO Alphabet Transcriber** stands as a demonstration of how **simple datasets can be transformed into powerful, user-centric applications**, merging programming fundamentals with practical real-world value.  
+The **NATO Alphabet Transcriber** stands as a demonstration of how **simple datasets can be transformed into powerful, user centric applications**, merging programming fundamentals with practical real world value.  
