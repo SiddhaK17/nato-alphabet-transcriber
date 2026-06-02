@@ -73,12 +73,12 @@ nato-alphabet-transcriber/
 
 2. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/nato-alphabet-transcriber.git
+   git clone https://github.com/your-username/NATO-Alphabet-Transcriber.git
    ```
 
 3. **Navigate to the project folder**
    ```bash
-   cd nato-alphabet-transcriber
+   cd NATO-Alphabet-Transcriber
    ```
 
 4. **Run the script**
