@@ -50,7 +50,7 @@ Though designed as a **utility tool**, the application incorporates mechanics th
 ## 📂 Project Structure
 
 ```
-nato-alphabet-transcriber/
+NATO-Alphabet-Transcriber/
     ├── main.py # Core Python script handling logic and execution
     ├── nato_phonetic_alphabet.csv # Dataset: NATO phonetic alphabet (A–Z mappings)
     └── README.md # Project documentation
