@@ -7,7 +7,7 @@ data = pandas.read_csv("nato_phonetic_alphabet.csv")
 
 
 phonetic_dict = {row.letter: row.code for (index, row) in data.iterrows()}
-# print(phonetic_dict)    -> Prints out the dictionary therefore usefull for debugging
+# print(phonetic_dict)  # Useful for debugging and inspecting the generated dictionary
 
 
 def generate_phonetic():
