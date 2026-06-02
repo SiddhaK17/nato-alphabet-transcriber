@@ -12,7 +12,7 @@ In fields like **aviation, telecommunications, and defense**, the NATO phonetic 
 
 - Each character of the word is validated and mapped to its NATO counterpart.  
 - Invalid inputs such as numbers or special characters are gracefully rejected with clear guidance to the user.  
-- A recursive mechanism ensures that the workflow remains uninterrupted and user friendly.  
+- A continuous validation loop ensures that the workflow remains uninterrupted and user friendly.
 
 This project goes beyond textbook exercises, as it exemplifies how **structured datasets, robust error handling, and algorithmic thinking** can be combined to deliver a practical solution that is both **educational** and **professionally relevant**.  
 
@@ -26,7 +26,7 @@ The project demonstrates a **synergistic blend of Pythonic techniques and data h
 - **Pandas** – Utilized for **parsing the CSV dataset** (`nato_phonetic_alphabet.csv`) and converting it into a highly efficient, dictionary based lookup structure.  
 - **Dictionary Comprehension** – A Pythonic approach to transform the phonetic dataset into a usable `dict` in a single, elegant line of code.  
 - **Exception Handling (`try/except`)** – Ensures resilience by catching non alphabetic inputs, thereby maintaining program integrity and user experience.  
-- **Recursion** – Deployed for input retries, guaranteeing that invalid input scenarios do not terminate the application unexpectedly.  
+- **Loop-Based Validation** – Utilizes a continuous input loop to gracefully handle invalid entries and re-prompt users until valid input is provided.
 - **Data Abstraction & Separation of Concerns** – Keeps the logic (`main.py`) and dataset (`.csv`) modular and maintainable, allowing easy scalability or dataset replacement in future iterations.  
 - **CLI Interactivity** – Engages users in a streamlined, text based environment while providing instant, real time feedback.  
 
@@ -38,7 +38,7 @@ Though designed as a **utility tool**, the application incorporates mechanics th
 
 1. **📝 Input Stage** – Users enter any word via the CLI. The program automatically converts the input to uppercase to maintain uniformity.  
 2. **🔍 Validation Layer** – Each character is checked against the phonetic dictionary. Non alphabetic characters (e.g., digits, symbols) trigger controlled exceptions.  
-3. **⚠️ Error Handling & Recovery** – Instead of failing silently or terminating, the program gracefully informs the user of the invalid input and **recursively re-prompts** for valid data.  
+3. **⚠️ Error Handling & Recovery** – Instead of failing silently or terminating, the program gracefully informs the user of invalid input and continuously re-prompts until valid data is provided.
 4. **🎯 Phonetic Conversion Engine** – Valid words are decomposed into individual characters, each mapped to its corresponding NATO phonetic code word.  
 5. **📤 Output Rendering** – A clean, structured list of phonetic code words is displayed instantly, ensuring clarity and readability.  
 6. **🔄 Replay Cycle** – Users can re-run the process for as many words as desired without restarting the application.  
@@ -120,7 +120,7 @@ Sorry, only letters in the alphabets please.
 Enter a word:
 ```
 
-> ⚠️ The program detects invalid input (`123`) and gracefully handles the error by displaying a warning and re-prompting the user for a valid entry.  
+> ⚠️ The program detects invalid input (`123`), displays a clear warning message, and continues prompting the user until a valid word is entered.
 
 ---
 
@@ -156,7 +156,7 @@ Enter a word:
 ```
 #### **Program Response:**  
 ```
-Sorry, only letters in the alphabets please.
+Please enter a word.
 ```
 > The program identifies empty input as invalid and re-prompts, preventing crashes or undefined behavior.  
 
@@ -183,8 +183,8 @@ The **NATO Alphabet Transcriber** is more than just a coding exercise. It is a *
   Non alphabetic inputs trigger graceful validation messages, preventing crashes and ensuring uninterrupted workflow.  
 - **Case Uniformity:**  
   Mixed case words are automatically standardized to uppercase, producing consistent and professional outputs.  
-- **Recursive Input Recovery:**  
-  Instead of terminating on invalid input, the program **re-prompts intelligently**, keeping the user engaged until valid data is provided.  
+- **Continuous Input Validation:**  
+  Instead of terminating on invalid input, the program continuously prompts users until valid alphabetic input is received.
 
 ---
 
@@ -204,7 +204,7 @@ The **NATO Alphabet Transcriber** is more than just a coding exercise. It is a *
 - **Mastery of `pandas`:** Gained hands on experience reading CSV files and transforming tabular data into usable program structures.  
 - **Applied Dictionary Comprehension:** Learned to construct dictionaries dynamically using `iterrows()` for efficiency and readability.  
 - **Strengthened Exception Handling Skills:** Designed fault tolerant logic to gracefully manage user errors.  
-- **Recursive Function Design:** Leveraged recursion as a mechanism for recovery and re-engagement.  
+- **Input Validation Strategies:** Implemented loop-based validation to provide a reliable and user friendly command-line experience.
 - **Bridging Theory to Real World Utility:** Transformed a simple dataset into a tool with professional communication value (e.g., aviation, military, call centers).  
 
 ---
@@ -224,7 +224,7 @@ This project reflects my pursuit of **combining Python programming with practica
 
 Beyond the initial inspiration, I independently:  
 - Implemented **robust error handling** for non alphabetic characters.  
-- Designed a **recursive input validation mechanism** for smooth user interaction.  
+- Designed a **loop-based input validation mechanism** for smooth and reliable user interaction.
 - Structured the project for **clarity, scalability, and long term maintainability**.  
 - Authored detailed **documentation and professional commit history** to reflect industry grade standards.  
 
